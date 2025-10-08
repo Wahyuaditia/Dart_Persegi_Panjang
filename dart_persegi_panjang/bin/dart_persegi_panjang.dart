@@ -4,4 +4,6 @@ class PersegiPanjang {
 
  PersegiPanjang(this.panjang, this.lebar);
 
+ 
+
 }
