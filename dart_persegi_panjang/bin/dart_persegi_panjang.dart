@@ -15,3 +15,13 @@ class PersegiPanjang {
   }
 
 }
+
+void main() {
+ var panjang = 5;
+ var lebar = 3;
+ var pp = PersegiPanjang(panjang, lebar);
+ var keliling = pp.KelilingPersegiPanjang();
+ var luas = pp.LuasPersegiPanjang();
+ print('Keliling Persegi Panjang : $keliling');
+ print('Luas Persegi Panjang : $luas');
+}
